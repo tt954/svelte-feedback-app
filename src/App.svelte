@@ -1,5 +1,6 @@
 <script>
   // example of a component: includes logic (js), style (css), output (html)
+  import FeedbackForm from "./components/FeedbackForm.svelte"
   import FeedbackStats from "./components/FeedbackStats.svelte";
   import FeedbackList from "./components/FeedbackList.svelte";
 
@@ -28,6 +29,7 @@
 </style>
 
 <main>
+  <FeedbackForm />
   <FeedbackStats {count} {average} />
 	<FeedbackList {feedback} on:delete-feedback={deleteFeedback}/>
 </main>
