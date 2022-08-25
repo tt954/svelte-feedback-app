@@ -3,5 +3,6 @@ button.svelte-lav54i{background-color:#F870A0;border-radius:5px;color:#f4f4f6;cu
 .card.svelte-1phdtwa{box-shadow:rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;background-color:#f4f4f6;border-radius:5px;color:#333;padding:1.5em 2em;position:relative;margin:1em 0}
 .rating.svelte-1vaj2rf{position:absolute}.close.svelte-1vaj2rf{position:absolute;background:none;border:none;cursor:pointer;top:20px;right:20px}
 .stats.svelte-1s2336y{display:flex;align-items:center;justify-content:space-between}
+.rating-select.svelte-18l2lsu{margin:2em auto}input.svelte-18l2lsu{display:none}label.svelte-18l2lsu:before{display:inline-block;content:"\f005";font-family:FontAwesome;font-size:1em;margin:0.25em}
 
 /*# sourceMappingURL=bundle.css.map */

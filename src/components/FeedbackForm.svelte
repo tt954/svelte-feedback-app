@@ -1,11 +1,13 @@
 <script>
-    import Card from './Card.svelte'       
+    import Card from './Card.svelte'   
+    import RatingSelect from './RatingSelect.svelte'    
     import Button from './Button.svelte'
     
+    let rating = 5;
     let text = '';
-    let btnDisabled = true;
     let min = 10;
     let message;
+    let btnDisabled = true;
     
     const handleValidation = () => {
         if (text.trim().length <= min) {
@@ -21,7 +23,7 @@
 <Card>
     <header>Give feedback</header>
     <form>
-        <!--Rating select-->
+        <RatingSelect />
         <div>
             <input type='text' on:input={handleValidation} bind:value={text} placeholder="What are the main reasons for your ratings?">
             <Button disabled={btnDisabled}>Send</Button>
